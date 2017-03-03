@@ -19,9 +19,12 @@ Group:	 	Development/Java
 Url:		https://github.com/jitsi/%{name}
 Source0:	https://github.com/jitsi/%{name}/archive/%{commit}/%{name}-%{commit}.zip
 
-BuildRequires:  maven-local
-BuildRequires:  mvn(net.java.dev.jna:jna)
-BuildRequires:  mvn(org.apache.felix:maven-bundle-plugin)
+BuildRequires:	ant
+BuildRequires:	cpptasks
+BuildRequires:	javapackages-local
+BuildRequires:	maven-local
+BuildRequires:	mvn(net.java.dev.jna:jna)
+BuildRequires:	mvn(org.apache.felix:maven-bundle-plugin)
 # natives
 #   g722
 BuildRequires:	pkgconfig(libv4l2)
