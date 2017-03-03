@@ -21,7 +21,7 @@ Source0:	https://github.com/jitsi/%{name}/archive/%{commit}/%{name}-%{commit}.zi
 
 BuildRequires:	ant
 BuildRequires:	cpptasks
-BuildRequires:	javapackages-local
+BuildRequires:	jpackage-utils
 BuildRequires:	maven-local
 BuildRequires:	mvn(net.java.dev.jna:jna)
 BuildRequires:	mvn(org.apache.felix:maven-bundle-plugin)
